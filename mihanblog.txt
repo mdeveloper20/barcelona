@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Masoud.Pezeshkzade" />
+    <link rel='stylesheet'href='http://template.bluetheme.ir/barcelona/style/reset.css' type='text/css'/>
+    <link rel='stylesheet'href='http://template.bluetheme.ir/barcelona/style/style.css' type='text/css'/>
+    <meta name="keywords" content="[cb:blog_meta_keywords]"/>
+    <link rel="shortcut icon" href="http://bluetheme.ir/Uploads/upload/file/favicon.png" />
+    <!--[if IE]>
+        <link rel='stylesheet'href='http://template.bluetheme.ir/barcelona/style/ie.css' type='text/css'/>
+    <![endif]-->
+    <title>[cb:blog_page_title]</title>
+</head>
+<body>
+<div id="container">
+<div id="header">
+</div>
+<div id="menubar">
+    <center>
+        <ul>
+            <li><a href="[cb:blog_full_address]">صفحه اصلی</a></li>
+            <li class="bar">|</li>
+            <li><a href="[cb:blog_email]">پست الکترونیک</a></li>
+            <li class="bar">|</li>
+            <li><a href="[cb:blog_rss_href]">فید وبلاگ</a></li>
+            <li class="bar">|</li>
+            <li><a href="http://www.bluetheme.ir">قالب وبلاگ</a></li>
+        </ul>
+    </center>
+</div>
+<div id="main">
+    <div id="rightmain">
+        <div class="box">
+            <div class="hbox text1">
+                 »» <b>تبلیغات</b>
+            </div>
+            <div class="bbox">
+                <div class="adv1">
+                
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="hbox text1">
+                 »» <b>منو اصلی</b>
+            </div>
+            <div class="bbox">
+                <ul>
+                    <li><a href="[cb:blog_full_address]">صفحه اصلی</a></li>
+                    <li><a href="[cb:blog_contact_href]">ارسال پیام</a></li>
+                    <li><a href="[cb:blog_email]">پست الکترونیک</a></li>
+                    <li><a href="[cb:blog_rss_href]">فید وبلاگ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <div class="hbox text1">
+                 »» <b>آرشیو ماهیانه</b>
+            </div>
+            <div class="bbox">
+            <cb:block_blog_archive>
+                <ul>
+                <cb:loop_blog_archive>
+                    <li><a href="[cb:blog_archive_href]" >[cb:blog_archive_text]</a></li>
+                </cb:loop_blog_archive>
+                <li><a href="[cb:blog_archive_full_list_href]" >نمایش همه</a></li>
+                </ul>
+            </cb:block_blog_archive>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="hbox text1">
+                 »» <b>پیوند ها</b>
+            </div>
+            <div class="bbox">
+            <cb:block_link>
+                <ul>
+                <cb:loop_link>
+                    <li><a href="[cb:link_href]" title="[cb:link_title]">[cb:link_text]</a></li>
+                </cb:loop_link>
+                </ul>
+            </cb:block_link>
+            </div>
+        </div>
+
+    </div>
+    <!-- CENTER  ------------------------------------------------- -->
+    <div id="centermain">
+        <div class="adbox">
+            <div class="hbox text1">
+                <b>تبلیغات</b> 
+            </div>
+            <div class="bbox">
+                <a href="http://www.bluetheme.ir"><div class="adv2">
+                
+                </div>
+                </a>
+            </div>
+        </div>
+        <cb:block_post>
+            <cb:loop_post>
+        <div class="adbox">
+            <div class="hbox text1 post">
+               »» <a href="[cb:post_href]"><b>[cb:post_title]</b></a> 
+            </div>
+            <div class="bbox">
+                <div class="cat text1">
+                <cb:block_post_category> دسته:
+                <cb:loop_post_category> 
+                    <a href="[cb:post_category_href]">[cb:post_category_name]</a>
+                </cb:loop_post_category> 
+                </cb:block_post_category> 
+                </div>
+                <div class="postbody text1">
+                    [cb:post_body1]
+                    [cb:post_body2]
+                    <br />
+                    <p class="more" >[cb:post_continue_link]</p>
+                </div>
+                <div class="postf text1">
+                نوشته شده توسط 
+                [cb:post_author_name]
+                 در تاریخ
+                 [cb:post_create_date]
+                <p class="addc"><a target="_self" href="[cb:post_comment_href]">
+                    ارسال نظر([cb:post_comment_count])
+                    </a>
+                </p>
+                </div>
+            </div>
+        </div>
+            </cb:loop_post>
+        </cb:block_post>
+    </div>
+    <!-- /////////////////////CENTER  ------------------------------------------------- -->
+    <div id="leftmain">
+        <div class="box">
+            <div class="hbox text1">
+                 »» <b>تبلیغات</b>
+            </div>
+            <div class="bbox">
+                <div class="adv1">
+                
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="hbox text1">
+                 »» <b>موضوعات وبلاگ</b>
+            </div>
+            <div class="bbox">
+            <cb:block_blog_category>
+                <ul>
+                <cb:loop_blog_category>
+                    <li><a href="[cb:blog_category_href]">[cb:blog_category_name]</a></li>
+                </cb:loop_blog_category>
+                </ul>
+            </cb:block_blog_category>
+            </div>
+        </div>
+        <div class="box">
+            <div class="hbox text1">
+                 »» <b>نویسندگان</b>
+            </div>
+            <div class="bbox">
+            <cb:block_author>
+                <ul>
+                <cb:loop_author>
+                    <li><a href="[cb:author_href]" >[cb:author_name]</a></li>
+                </cb:loop_author>
+                </ul>
+            </cb:block_author>
+            </div>
+        </div>
+        <div class="box">
+            <div class="hbox text1">
+                 »» <b>دیگر امکانات</b>
+            </div>
+            <div class="bbox">
+                [cb:blog_script]
+            </div>
+        </div>
+    </div>
+<div id="footer">
+    <p id="pages" class="text1">
+    <cb:block_pages>
+        صفحات وبلاگ :
+        <cb:loop_pages>
+            <a href="[cb:pages_href]">[cb:pages_no] </a>
+        </cb:loop_pages>
+    </cb:block_pages>
+    </p>
+    <p id="dr" class="text1">
+        <a href="http://www.bluetheme.ir">
+            طراحی و گرافیک قالب : bluetheme.ir
+        </a>
+        
+    </p> 
+    <p class="cpr text1">
+        کلیه حقوق این وبسایت متعلق به مالک آن است.هرگونه کپی برداری با ذکر منبع بلا مانع است
+    </p>
+</div>
+</div>
+</div>
+
+</body>
+</html>

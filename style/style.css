@@ -1,0 +1,225 @@
+
+*{
+    margin:0;
+    padding:0;
+    direction: rtl;
+}
+body{
+    background: url("../images/bg.jpg") no-repeat fixed center top #D9DFDF;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color:#ffe700;
+}
+img{
+    border:none;
+}
+
+.text1{
+    color:white;
+    font-family: tahoma;
+    font-size: 11px;
+}
+#container{
+    width: 920px;
+    height:auto;
+    margin:183px auto 0;
+
+}
+#header{
+    width:920px;
+    height:172px;
+    background-image: url("../images/header.jpg");
+}
+
+#menubar{
+    width:100%;
+    height:29px;
+    background-image: url("../images/menubar.jpg");    
+    display: inline-block;
+}
+#menubar ul{
+    list-style-type: none;
+    margin-right:285px;
+    margin-top:3px;
+}
+#menubar ul li{
+    float:right;   
+    margin-right:10px;
+}
+#menubar ul li.bar{
+    color:white
+}
+#menubar ul li a{
+    color:white;
+    font-family: tahoma;
+    font-size:11px;
+    text-decoration: none;   
+}
+#menubar ul li a:hover{
+    color:#ffe700;
+       
+}
+#rightmain{
+    width: 152px;
+    margin:9px;
+    height:auto;
+    display: inline-block;
+    float: right;
+}
+#centermain{
+    width: 580px;
+    margin:9px 0;
+    height: auto;
+    float:right;
+    display: inline-block;
+}
+#leftmain{
+    width: 152px;
+    margin:9px;
+    height:auto;
+    float: right;
+    display: inline-block;
+}
+#main{
+    background-color: #00010e;
+    height:auto;
+}
+.box{
+    background-color: #0d0e13;
+    width: 150px;
+    height:auto;
+    border:solid 1px #35171b;
+    margin-bottom: 9px;
+}
+.box .hbox{
+    background-image: url("../images/hbox.jpg");
+    width:143px;
+    height:23px;
+    text-align: right;
+    padding-right: 7px;
+    padding-top: 8px;
+}
+.box .bbox{
+    text-align: right;
+    padding-bottom: 9px;
+}
+.box .adv1{
+    width: 120px;
+    height:239px;
+    margin:15px auto;
+    margin-bottom: 6px;
+    background-image: url("../images/adv1.jpg");
+ 
+}
+.adbox {
+    background-color: #0d0e13;
+    width: 578px;
+    height:auto;
+    border:solid 1px #35171b;  
+    margin-bottom: 9px; 
+}
+
+.adbox .hbox{
+    background-image: url("../images/hbox.jpg");
+    width:578px;
+    height:23px;
+    text-align: center;
+    
+    padding-top: 8px;
+}
+.adbox .adv2{
+    width: 466px;
+    height:60px;
+    margin:15px auto;
+    background-image: url("http://www.bluetheme.ir/Uploads/upload/file/bluetheme_banner.jpg");
+}
+
+.bbox ul{
+    list-style:inside;
+    list-style-image: url("../images/arrow.jpg");
+    margin-right: 3px;
+    margin-top:3px;
+}
+.bbox ul li{
+    margin-top: 5px;
+    
+}
+
+.bbox ul li a{
+    color:white;
+    font-family: tahoma;
+    font-size:11px;
+    text-decoration: none;  
+    margin-right:-1px; 
+}
+.bbox ul li a:hover{
+    color:#ffe700;
+       
+}
+.post{
+    text-align: right!important;
+    padding-right: 7px;
+    width:571px!important ;
+}
+.cat{
+    margin-right:15px;
+    margin-top:5px;
+}
+.postbody{
+    padding:9px;
+    text-align: justify;
+    line-height: 19px;
+}
+.postf{
+    border-top:solid 1px #35171b;
+    height:15px;
+    width: 563px;
+    padding-right: 15px;
+    font-size: 10px!important;
+    color:#bec4c4;
+    margin-top: 10px;
+    padding-top: 2px;
+}
+.postf a{
+    color:#bec4c4!important;
+}
+.postf a:hover{
+    color:#ffe700!important;
+}
+.postf p.addc{
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    width: auto;
+}
+#footer{
+    clear:both;
+    height:80px;
+    width:100%;
+    background-color:#0e469c;
+    border-top:1px solid #5b89d1;
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+    
+}
+#pages{
+    margin-top:10px;
+    
+}
+#dr{
+    margin-top:13px;
+}
+.cpr{
+    margin-top:13px;
+}
+#footer a:hover{
+    color:#ffe700;
+}
+.more{
+    float:left;
+}
