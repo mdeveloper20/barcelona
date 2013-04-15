@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Masoud.Pezeshkzade" />
+    <link rel='stylesheet'href='http://template.bluetheme.ir/barcelona/style/reset.css' type='text/css'/>
+    <link rel='stylesheet'href='style/style.css' type='text/css'/>
+    <meta name="keywords" content="Bt.meta.keywords"/>
+    <!--[if IE]>
+        <link rel='stylesheet'href='http://template.bluetheme.ir/barcelona/style/ie.css' type='text/css'/>
+    <![endif]-->
+    <title>Bt.title | Bt.page.title</title>
+</head>
+<body>
+<div id="container">
+<div id="header">
+</div>
+<div id="menubar">
+    <center>
+        <ul>
+            <li><a href="Bt.full.address">صفحه اصلی</a></li>
+            <li class="bar">|</li>
+            <li><a href="Bt.email">پست الکترونیک</a></li>
+            <li class="bar">|</li>
+            <li><a href="Bt.rss">فید وبلاگ</a></li>
+            <li class="bar">|</li>
+            <li><a href="http://www.bluetheme.ir">قالب وبلاگ</a></li>
+        </ul>
+    </center>
+</div>
+<div id="main">
+    <div id="rightmain">
+        <div class="box">
+            <div class="hbox text1">
+                 »» <b>تبلیغات</b>
+            </div>
+            <div class="bbox">
+                <div class="adv1">
+                
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="hbox text1">
+                 »» <b>منو اصلی</b>
+            </div>
+            <div class="bbox">
+                <ul>
+                    <li><a href="Bt.full.address">صفحه اصلی</a></li>
+                    <li><a href="Bt.contact.href">ارسال پیام</a></li>
+                    <li><a href="Bt.email">پست الکترونیک</a></li>
+                    <li><a href="Bt.rss">فید وبلاگ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <div class="hbox text1">
+                 »» <b>آرشیو ماهیانه</b>
+            </div>
+            <div class="bbox">
+            Bt.block.archive
+                <ul>
+                Bt.loop.archive
+                    <li><a href="Bt.archive.href" >Bt.archive.text</a></li>
+                Bt.end.loop.archive
+                <li><a href="Bt.archive.full.list" >نمایش همه</a></li>
+                </ul>
+            Bt.end.block.archive
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="hbox text1">
+                 »» <b>پیوند ها</b>
+            </div>
+            <div class="bbox">
+            Bt.block.link
+                <ul>
+                Bt.loop.link
+                    <li><a href="Bt.link.href" title="Bt.link.title">Bt.link.text</a></li>
+                Bt.end.loop.link
+                </ul>
+            Bt.end.block.link
+            </div>
+        </div>
+
+    </div>
+    <!-- CENTER  as------------------------------------------------- -->
+    <div id="centermain">
+        <div class="adbox">
+            <div class="hbox text1">
+                <b>تبلیغات</b> 
+            </div>
+            <div class="bbox">
+                <div class="adv2">
+                
+                </div>
+            </div>
+        </div>
+        Bt.block.post
+            Bt.loop.post
+        <div class="adbox">
+            <div class="hbox text1 post">
+               »» <a href="Bt.post.href"><b>Bt.post.title</b></a> 
+            </div>
+            <div class="bbox">
+                <div class="cat text1"><a href="#">دسته: ورزشی</a></div>
+                <div class="postbody text1">
+                    Bt.post.body
+                    Bt.post.body2
+                    <p class="more">Bt.post.continue.linke</p>
+                </div>
+                <div class="postf text1">
+                نوشته شده توسط 
+                Bt.post.author
+                 در تاریخ
+                 Bt.post.data
+                <p class="addc"><a href="Bt.post.comment.href">
+                    ارسال نظر(
+                    Bt.post.comment.count
+                    )
+                    </a>
+                </p>
+                </div>
+            </div>
+        </div>
+            Bt.end.loop.post
+        Bt.end.block.post
+    </div>
+    <!-- /////////////////////CENTER  -------------------------------------------------- -->
+    <div id="leftmain">
+        <div class="box">
+            <div class="hbox text1">
+                 »» <b>تبلیغات</b>
+            </div>
+            <div class="bbox">
+                <div class="adv1">
+                
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="hbox text1">
+                 »» <b>موضوعات وبلاگ</b>
+            </div>
+            <div class="bbox">
+            Bt.block.category
+                <ul>
+                Bt.loop.category
+                    <li><a href="Bt.category.href">Bt.category.name</a></li>
+                Bt.end.loop.category
+                </ul>
+            Bt.end.block.category
+            </div>
+        </div>
+        <div class="box">
+            <div class="hbox text1">
+                 »» <b>نویسندگان</b>
+            </div>
+            <div class="bbox">
+            Bt.block.author
+                <ul>
+                Bt.loop.author
+                    <li><a href="Bt.author.href" >Bt.author.name</a></li>
+                Bt.end.loop.author
+                </ul>
+            Bt.end.block.author
+            </div>
+        </div>
+        <div class="box">
+            <div class="hbox text1">
+                 »» <b>دیگر امکانات</b>
+            </div>
+            <div class="bbox">
+                Bt.script
+            </div>
+        </div>
+    </div>
+<div id="footer">
+    <p id="pages" class="text1">
+    Bt.block.pages
+        صفحات وبلاگ :
+        Bt.loop.pages
+            <a href="Bt.pages.href">Bt.pages.no</a>
+        Bt.end.loop.pages
+    Bt.end.block.pages
+    </p>
+    <p id="dr" class="text1">
+        <a href="http://www.bluetheme.ir">
+            طراحی و گرافیک قالب : bluetheme.ir
+        </a>
+        
+    </p> 
+    <p class="cpr text1">
+        کلیه حقوق این وبسایت متعلق به مالک آن است.هرگونه کپی برداری با ذکر منبع بلا مانع است
+    </p>
+</div>
+</div>
+</div>
+
+</body>
+</html>
